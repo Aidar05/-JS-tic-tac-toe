@@ -1,5 +1,4 @@
 
-
 .TicTacToe{
   height: 100vh;
   display: flex;
@@ -13,24 +12,20 @@
   border: solid 1px black;
   width: 100px;
   height: 100px;
+  position: relative;
 }
 
-.line{
-  background-color: red;
-  width: 4px;
-  height: 140px;
-  transform: rotate(45deg);
-  position: relative;
-  left: 48px;
-  bottom: 20px
+img{
+  width: 80px;
+  height: 80px;
 }
 
-.line_2{
-  background-color: red;
-  width: 4px;
-  height: 140px;
-  transform: rotate(-45deg);
-  position: relative;
-  left: 48px;
-  bottom: 160px;
+.krest{
+  position: absolute;
+  z-index: 1;
+}
+
+.nolik{
+  position: absolute;
+  z-index: 2;
 }
